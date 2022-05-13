@@ -1,0 +1,22 @@
+{
+  "name": "firebase-tools",
+  "version": "1.0.0",
+  "description": "Hello, I'm Patrick Neri de Oliveira and this is my First APP builded by Flutter.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patrick-Neri-Oliveira/projeto_perguntas_oriente_medio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patrick-Neri-Oliveira/projeto_perguntas_oriente_medio/issues"
+  },
+  "homepage": "https://github.com/Patrick-Neri-Oliveira/projeto_perguntas_oriente_medio#readme"
+}

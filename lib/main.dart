@@ -1,8 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 import './questionario.dart';
 import './resultado.dart';
 
-main() => runApp(new PerguntaOrienteMedioApp());
+main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  //await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlataform,);
+
+  runApp(new PerguntaOrienteMedioApp());
+  }
+  
+  class DefaultFirebaseOptions {
+  }
 
 class _PerguntaAppState extends State<PerguntaOrienteMedioApp> {
   var _perguntaSelecionada = 0;
